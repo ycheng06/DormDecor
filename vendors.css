@@ -1,0 +1,86 @@
+html { height: 100% }
+  
+body { 
+height: 100%; 
+margin: 0px; 
+padding: 0px 
+}
+
+#header{
+	color: yellow;
+	background-color: red;
+	border-bottom: 2px solid #000000;
+	height: 150px;
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	width: 400px;
+	float: left;
+	font-size: 48pt;
+	text-shadow: #FFFFFF 4px -4px 4px;
+}
+
+#signout {
+	position: relative;
+	color: yellow;
+	float: right;
+	margin-left: 500px;
+	padding: 1em;
+}  
+a:link {
+	color: red;
+	font-variant: small-caps;
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+a.subMenu {
+	margin-left: 20px;
+	font-size: 16pt;
+}
+
+#outerContainer {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#contentContainer {
+	margin: 0px auto;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#navMenu {
+	float: left;
+	width: 200px;
+	position: absolute;
+	margin: 0px;
+	border-right: 2px solid #000000;
+	padding: 1em;
+	background-color: yellow;
+}
+
+#map_div { 
+height: 400px; 
+width: 600px; 
+margin-left: auto; 
+margin-right: auto; 
+padding-top: 50px;
+padding-left: 50px; 
+}
+  
+#map_canvas { height: 100% }

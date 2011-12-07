@@ -1,0 +1,72 @@
+html { height: 100% }
+body { height: 100%; margin: 0px; padding: 0px }
+#outerContainer {height: 100%; width: 100%}
+
+#banner{
+	/* text-align: center; */
+	margin-bottom: 20px;
+	height: 160px;
+	width: 95%; 
+	font-size: 48pt;
+
+}
+#banner_color{
+	position: absolute;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#signout {
+	padding-right: 5px;
+	float: right;
+	font-size: 25px;
+}
+a:link {
+	text-decoration: none;
+	color: #CCCC99;
+}
+a:visited {
+	color: #CCCC99;
+	text-decoration: none;
+}
+
+#navMenu {
+
+	margin: 5px auto 5px auto;
+	width: 150px;
+	font-size: 22px;
+	line-height: 35px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #666699;
+}
+#navMenu a {
+	border-color: #CCCC99; 
+	padding-left: 15px;
+}
+.subMenu {
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+
+#contentContainer {
+	height: 80%;
+	width: 100%
+}
+#map_div {
+	width: 80%; 
+	height: 80%;
+	margin: auto;	
+}
+#map_canvas { 
+	text-align: center;
+	height: 100%; 
+	width: 100% 
+}
+#link{
+	margin-top: 60px;
+	padding-left: 5px;
+}

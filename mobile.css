@@ -1,0 +1,31 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family:"Apple Chancery";
+	padding-bottom: 10px;
+	width: 100%;
+}
+#banner {
+	width: 100%;
+	color: #CCCC99;
+}
+#banner_title {
+	font-size: 50px;
+	font-style: bold;
+	text-align: center;
+}
+#content_bottom {
+	top: 75px;
+	padding-left: 5px;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a:link {
+	text-decoration: none;
+	color: #CCCC99;
+}
+a:visited {
+	color: #CCCC99;
+	text-decoration: none;
+}

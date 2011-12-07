@@ -1,0 +1,92 @@
+
+outerContainer {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Bernard MT Condensed", serif, Helvetica, Verdana, Arial, sans-serif;
+	padding-bottom: 10px;
+	width: 100%;
+}
+#banner{
+	margin-bottom: 20px;
+	height: 160px;
+	width: 95%; 
+	font-size: 48pt;
+
+}
+#banner_color{
+	position: absolute;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#signout {
+	padding-right: 5px;
+	float: right;
+	font-size: 25px;
+}
+#contentContainer {
+	top: 75px;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a:link {
+	text-decoration: none;
+	color: #CCCC99;
+}
+a:visited {
+	color: #CCCC99;
+	text-decoration: none;
+}
+#navMenu {
+	margin-left:auto;
+	margin-right:auto;
+	width: 150px;
+	font-size: 22px;
+	line-height: 35px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #666699;
+}
+#navMenu a {
+	border-color: #CCCC99; 
+	padding-left: 15px;
+}
+.subMenu {
+	padding-left: 15px;
+	font-size: 15px;
+}
+#rightContent{
+	padding: 0px 5px 0px 5px;
+	top: 300px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+#feedSearch {
+	top: 500px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#products table{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#view_products {
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60px;	
+}
+#search_products {
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+}
+#map_canvas {
+	height: 100%;
+	width: 100%;
+}
